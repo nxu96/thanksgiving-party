@@ -17,3 +17,19 @@ libs required :
 Wall textures and flowers made by BDCraft ( https://bdcraft.net )
 
 ![alt text](screenshot.png?raw=true "Screenshot")
+
+
+
+## Install
+
+```shell
+sudo apt-get install -y libsdl2-dev git
+sudo apt-get install libsdl2-mixer-dev
+sudo apt-get install libsdl2-ttf-dev
+make
+```
+
+## Development Environment
+
+*Ubuntu 18.04*.4 LTS (*Bionic* Beaver)
+

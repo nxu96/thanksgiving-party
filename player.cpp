@@ -119,8 +119,8 @@ void Player::handle_events(float dt)
 
 void Player::update_key(SDL_Keycode key, bool state)
 {
-    if (key == 'z' && menu->current != Pause) pressed_keys[0] = state;
-    else if (key == 'q' && menu->current != Pause) pressed_keys[1] = state;
+    if (key == 'w' && menu->current != Pause) pressed_keys[0] = state;
+    else if (key == 'a' && menu->current != Pause) pressed_keys[1] = state;
     else if (key == 's' && menu->current != Pause) pressed_keys[2] = state;
     else if (key == 'd' && menu->current != Pause) pressed_keys[3] = state;
     else if (key == SDLK_LEFT && menu->current != Pause) pressed_keys[4] = state;
